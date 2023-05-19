@@ -1,0 +1,55 @@
+body{
+    background-color: bisque;
+    
+}
+.a{
+    
+    display: flex;
+    justify-content: space-around;
+    padding:25px;
+    margin-top: 60px;
+    
+}
+.service-card{
+    background-color: aquamarine;
+    border-radius: 13px;
+    padding:25px;
+    margin:12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 5px 5px;
+    transition: transform .5s;
+}
+
+.service-card:hover{
+    background-color: rgb(8, 106, 108);
+    transition: 0.5s;
+    transform: scale(1.1);
+   
+}
+.btn{
+    background-color: antiquewhite;
+    border-radius: 12px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: medium;
+}
+.btn:hover{
+    background-color: chartreuse;
+   transition: 0.5s;
+    box-shadow: 12px;
+    background-color: darkgray;
+    
+}
+.btn a{
+    text-decoration: none;
+
+    
+}
+.btn a:hover{
+    transition: 0.5s;
+    color: rgb(105, 245, 112);
+}
+.service-card ul{
+    font-family: Georgia, serif;
+}
